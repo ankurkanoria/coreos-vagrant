@@ -2,11 +2,11 @@
 
 coreos:
   etcd2:
-    discovery: https://discovery.etcd.io/my-cluster-1
-    initial-advertise-peer-urls: https://$private_ipv4:2380
-    listen-peer-urls: https://$private_ipv4:2380
-    advertise-client-urls: https://$private_ipv4:2379
-    listen-client-urls: https://$private_ipv4:2379,http://localhost:2379
+    discovery: https://discovery.etcd.io/7af8a5fc3f0f3298f443a354129c63b3
+    initial-advertise-peer-urls: http://$private_ipv4:2380
+    listen-peer-urls: http://$private_ipv4:2380
+    advertise-client-urls: http://$private_ipv4:2379
+    listen-client-urls: http://$private_ipv4:2379,http://localhost:2379
   units:
     - name: etcd2.service
       command: start

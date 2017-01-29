@@ -42,7 +42,7 @@ $num_instances=3
 
 # Customize VMs
 #$vm_gui = false
-$vm_memory = 512
+$vm_memory = 256
 #$vm_cpus = 1
 #$vb_cpuexecutioncap = 100
 
